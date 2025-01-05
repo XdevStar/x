@@ -1,0 +1,129 @@
+/* General Body Styling */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text for contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1c1c1c; /* Darker navbar background */
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+    color: #f1c40f; /* Highlight color for hover */
+}
+
+/* Hero Section */
+header.jumbotron {
+    /* background: url('https://via.placeholder.com/1920x1080') no-repeat center center;
+    background-size: cover; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Overlay to darken the image */
+    padding: 100px 0;
+}
+
+header.jumbotron h1, header.jumbotron p {
+    color: #f1f1f1;
+}
+
+/* About Me Section */
+#about {
+    background-color: #1b1b1b; /* Slightly lighter than body */
+    padding: 50px 0;
+}
+
+#about h2 {
+    color: #f1c40f; /* Highlight color for headings */
+}
+
+/* Project Cards */
+.card {
+    background-color: #242424; /* Dark background for cards */
+    border: none; /* Remove border */
+    color: #ffffff;
+}
+
+.card .card-title {
+    color: #f1c40f; /* Accent color for card titles */
+}
+
+.card .card-text {
+    color: #c1c1c1; /* Lighter text for descriptions */
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card a {
+    background-color: #f1c40f; /* Button background */
+    color: #000;
+}
+
+.card a:hover {
+    background-color: #d4ac0d; /* Darker yellow on hover */
+    color: #fff;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #2e2e2e; /* Slightly lighter than other sections */
+    color: #ffffff;
+}
+
+#contact h2 {
+    color: #f1c40f;
+}
+
+#contact .btn {
+    background-color: #f1c40f;
+    color: #000;
+}
+
+#contact .btn:hover {
+    background-color: #d4ac0d;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Miscellaneous */
+h2 {
+    color: #f1c40f; /* Consistent highlight color for all headings */
+}
+
+/* Override Bootstrap Button Styles */
+.btn-primary {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+.btn-primary:hover {
+    background-color: #d4ac0d;
+    border-color: #d4ac0d;
+}
+
+/* For smooth scrolling in dark theme */
+a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

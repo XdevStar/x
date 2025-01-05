@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centered Image</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 66.67vh; /* 2/3 of the screen height */
+        max-width: 100%;
+      }
+
+      .image-container img {
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      .letters {
+        margin: 0px 0px 0px 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="images/vision.png" alt="Centered Image" />
+    </div>
+    <br />
+    <div>
+      <p class="letters">
+        Call me and let's make your vision a <br />reality , it will be and
+        adventure you will enjoy from start to finish !
+      </p>
+      <br />
+      <br />
+      <p class="letters">(425) 540 - 4646</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
